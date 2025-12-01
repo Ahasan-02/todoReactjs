@@ -1,13 +1,65 @@
-# React + Vite
+📝 Todo List App (React + LocalStorage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and clean To-Do List application built using React.
+It allows users to add tasks, mark them as complete, delete tasks, and automatically saves all todos in localStorage so the data remains even after refreshing the page.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add new tasks
+✔️ Mark tasks as complete / incomplete
+❌ Delete tasks
+💾 Auto-save todos in browser localStorage
+🎨 Minimal and responsive UI
 
-## Expanding the ESLint configuration
+⚡ Fast rendering using reusable components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# todo_ractJs
+🛠️ Tech Stack
+
+React.js
+JavaScript (ES6+)
+Tailwind CSS
+LocalStorage API
+
+📂 Project Structure
+
+/src
+ ├── components
+ │    ├── Todo.jsx
+ │    ├── TodoItem.jsx
+ │
+ ├── assets
+ │    └── todo_icon.png
+ │
+ ├── App.jsx
+ ├── index.js
+ └── index.css
+
+📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Go inside the folder
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+🧠 How It Works
+
+1. Add Todo
+The user types a task → clicks ADD → a new todo object is created and added to the todoList state.
+
+2. Toggle Todo
+When the user clicks the tick button, the isComplete property flips between true and false.
+
+3. Delete Todo
+Removes the item from the todoList using .filter().
+
+4. Save to LocalStorage
+Using useEffect, todoList is saved automatically whenever it changes.
