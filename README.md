@@ -1,4 +1,4 @@
-📝 Todo List App (React + LocalStorage)
+<h3>📝 Todo List App (React + LocalStorage)H</h3>
 
 This is a simple and clean To-Do List application built using React.
 It allows users to add tasks, mark them as complete, delete tasks, and automatically saves all todos in localStorage so the data remains even after refreshing the page.
@@ -23,32 +23,16 @@ LocalStorage API
 📂 Project Structure
 
 /src
- ├── components
- │    ├── Todo.jsx
- │    ├── TodoItem.jsx
- │
- ├── assets
- │    └── todo_icon.png
- │
- ├── App.jsx
- ├── index.js
- └── index.css
+    ├── components
+    │    ├── Todo.jsx
+    │    ├── TodoItem.jsx
+    │├── assets
+    │    └── todo_icon.png
+    │
+    ├── App.jsx
+    ├── index.js
+    └── index.css
 
-📦 Installation & Setup
-
-Follow these steps to run the project locally:
-
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
-# Go inside the folder
-cd your-repo-name
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
 
 🧠 How It Works
 
